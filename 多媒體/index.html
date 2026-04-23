@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷網站 - 詹崇翊</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>詹崇翊 的個人網站</h1>
+        <p class="slogan">猶豫就是想要，迷茫就是要拚</p>
+    </header>
+
+    <nav>
+        <a href="#about">關於我</a>
+        <a href="#experience">個人經歷</a>
+        <a href="#skills">專業技能</a>
+        <a href="#projects">專案經歷</a>
+        <a href="#contact">聯絡資訊</a>
+    </nav>
+
+    <main>
+        <article>
+            
+            <div class="skills-container card" id="skills">
+                <h2>Skills</h2>
+                <div class="divider"></div>
+                <h3>專業技能</h3>
+              
+                <div class="circle-group">
+                  <div class="skill-item">
+                    <div class="circle" style="--p:70;">70%</div>
+                    <p>前端網頁開發<br>(html/css/js)</p>
+                  </div>
+                  <div class="skill-item">
+                    <div class="circle" style="--p:50;">50%</div>
+                    <p>後端網頁<br>(laravel)</p>
+                  </div>
+                  <div class="skill-item">
+                    <div class="circle" style="--p:50;">50%</div>
+                    <p>資料庫設計<br>(MySQL)</p>
+                  </div>
+                </div>
+              
+                <h2 style="margin-top: 50px;">Programming Skills</h2>
+                <div class="divider"></div>
+                <h3>程式技能</h3> 
+                <div class="circle-group">
+                  <div class="skill-item">
+                    <div class="circle" style="--p:80;">80%</div>
+                    <p>JAVA程式設計<br>(Agile)</p>
+                  </div>
+                  <div class="skill-item">
+                    <div class="circle" style="--p:80;">80%</div>
+                    <p>PYTHON程式設計<br>(Agile)</p>
+                  </div>
+                </div>
+            </div>
+              
+            <section id="experience" class="card">
+                <h2>Experience / Works 個人經歷</h2>
+                <div class="exp-block">
+                    <h4>大一下時期：管理學 動服社</h4>
+                    <p>
+                        我在這個服務中，幫忙打掃了狗狗的生活環境，也了解了為甚麼學校會有這樣的社團，
+                        還有幫忙遛狗，也了解到學校附近很多流浪貓狗有很多都是在動服社生活過得
+                        這隻黃色的奇異果叫妞妞，她是當中最老的狗很溫和
+                    </p>
+                    <div class="photo-group">
+                        <img src="image/IMG_5641.jpg" alt="妞妞" class="exp-img">
+                        <img src="image/IMG_4572.png" alt="我們與妞妞" class="exp-img">    
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="card">
+                <h2>Project Experience 專案經歷</h2>
+                <div class="exp-block">
+                    <h4>大三上時期：進銷存系統</h4>
+                    <p>
+                        在課堂中，我們為了解決商家進銷存的問題，而專門設計了這個系統，
+                        透過簡單的app，在拿取庫存時記錄拿取的數量，即可在系統上留下紀錄，
+                        也可以透過遠端來查看庫存是否足夠，或是庫存是否與系統紀錄的量有差異。
+                    </p>
+                    <img src="image/image.png" class="screenshot" alt="進銷存狀態更新">
+                    <img src="image/image2.png" class="screenshot" alt="今日牛奶對帳表">     
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Contests 活動經歷</h2>
+                <div class="exp-block">
+                    <h4>大一上 資管之夜</h4>
+                    <p>
+                        在大一上，同學們彼此都還不太熟悉，
+                        不過大家卻能聚在一起，一起排練舞蹈，一起大聲唱歌上台表演。
+                        在這其中認識了許多同學，並且在資管之夜結尾得到了第三名，
+                        我們全部人衝上台一起慶祝。
+                    </p>
+                    <img src="image/image3.png" class="screenshot" alt="資管之夜表演">
+                </div>
+            </section>
+
+        </article>
+
+        <aside>
+            <div class="card" id="about">
+              <h2>關於我</h2>
+              <div class="divider"></div>
+          
+              <img src="image/IMG_4199.png" class="profile-pic" alt="詹崇翊個人照">
+          
+              <p style="text-align: center; font-weight: bold;">中原大學 資管系</p>
+              
+              <div style="text-align: center; margin-top: 20px;">
+                <button onclick="window.location.href='https://github.com/yourusername'">Github</button>
+                <button>作品集</button>
+              </div>
+            </div>
+
+            <div class="detailed-profile-card">
+              <h2>自我介紹</h2>
+              <div class="divider"></div>
+          
+              <h3>姓名(Name):</h3>
+              <p>詹崇翊</p>
+          
+              <h3>來自:</h3>
+              <p>台北市信義區</p>
+
+              <h3>學校:</h3>
+              <p>興雅國小</p>
+              <p>興雅國中</p>
+              <p>內湖高中</p>
+              <p>現於:中原大學資管系</p>
+
+              <h3>個人特質 (Key Traits)</h3>
+              <ul>
+                <li>個性直接說走就走。</li>
+                <li>時常陷入選擇困難。</li>
+                <li>是個阿宅但是會出門。</li>
+              </ul>
+          
+              <h3>興趣 (Interests)</h3>
+              <p>閱讀、騎自行車、看電影、釣蝦。</p>
+            </div>
+        </aside>
+    </main>
+
+    <footer id="contact">
+        <h5>聯絡資訊：<a href="mailto:andy20050704@gmail.com" style="color:white;">Email 發信</a> | <a href="#" style="color:white;">LinkedIn</a></h5>
+        <p style="font-size: 12px; margin-top: 10px;">Copyright @ 2026 All rights reserved</p>
+    </footer>
+</body>
+</html>
